@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Cinéfilo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background-animation"></div>
+  <div class="quiz-container">
+    <div id="home-screen" class="home-screen">
+      <h1>🎬 Quiz Cinéfilo</h1>
+      <p class="subtitle">Teste seus conhecimentos sobre cinema!</p>
+      <div class="home-content">
+        <div class="genre-selection">
+          <h3>Escolha o Gênero</h3>
+          <div class="genre-tabs">
+            <div class="genre-tab active" data-genre="cinema">🎬 Cinema</div>
+            <div class="genre-tab" data-genre="musica">🎵 Música</div>
+            <div class="genre-tab" data-genre="historia">📚 História</div>
+            <div class="genre-tab" data-genre="ciencia">🔬 Ciência</div>
+          </div>
+        </div>
+        
+        <div class="game-modes">
+          <h3>Escolha o Modo de Jogo</h3>
+          <div class="modes-grid">
+            <div class="mode-card" data-mode="normal">
+              <div class="mode-icon">🎯</div>
+              <h4>Normal</h4>
+              <p>10 perguntas<br>Sem tempo limite</p>
+            </div>
+            <div class="mode-card" data-mode="rapido">
+              <div class="mode-icon">⚡</div>
+              <h4>Rápido</h4>
+              <p>10 perguntas<br>15 segundos cada</p>
+            </div>
+            <div class="mode-card" data-mode="dificil">
+              <div class="mode-icon">🔥</div>
+              <h4>Difícil</h4>
+              <p>15 perguntas<br>Nível expert</p>
+            </div>
+            <div class="mode-card" data-mode="desafio">
+              <div class="mode-icon">💀</div>
+              <h4>Desafio</h4>
+              <p>20 perguntas<br>10 segundos cada</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="quiz-header hidden">
+      <h1>🎬 Quiz Cinéfilo</h1>
+      <p class="subtitle">Teste seus conhecimentos sobre cinema!</p>
+      <div class="timer-container hidden" id="timer-container">
+        <div class="timer" id="timer">15</div>
+      </div>
+      <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+      <div class="question-counter" id="question-counter">1 / 10</div>
+    </header>
+    
+    <main id="quiz" class="quiz-content hidden">
+      <!-- Pergunta e opções vão aqui via JS -->
+    </main>
+    
+    <footer class="quiz-footer hidden">
+      <button id="next-btn" class="btn-primary hidden">Próxima Pergunta</button>
+    </footer>
+    
+    <div id="result" class="result-container hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
