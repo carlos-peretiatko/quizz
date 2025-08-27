@@ -126,6 +126,31 @@ const perguntasCinema = {
       pergunta: "🎞️ Qual foi o primeiro filme colorido da Disney?",
       opcoes: ["Branca de Neve", "Fantasia", "Flores e Árvores", "Bambi"],
       resposta: "Flores e Árvores"
+    },
+    {
+      pergunta: "🎬 Qual filme de Bergman tem 'A Morte' como personagem?",
+      opcoes: ["O Sétimo Selo", "Persona", "Gritos e Sussurros", "Cenas de um Casamento"],
+      resposta: "O Sétimo Selo"
+    },
+    {
+      pergunta: "🎭 Qual diretor fez a trilogia das cores?",
+      opcoes: ["Krzysztof Kieślowski", "Jean-Luc Godard", "François Truffaut", "Andrei Tarkovsky"],
+      resposta: "Krzysztof Kieślowski"
+    },
+    {
+      pergunta: "🎪 Qual filme de Fellini retrata o mundo circense?",
+      opcoes: ["8½", "La Strada", "Amarcord", "A Doce Vida"],
+      resposta: "La Strada"
+    },
+    {
+      pergunta: "🎨 Qual cineasta criou o movimento Dogma 95?",
+      opcoes: ["Lars von Trier", "Thomas Vinterberg", "Ambos", "Nenhum"],
+      resposta: "Ambos"
+    },
+    {
+      pergunta: "🎬 Quantos filmes Chaplin dirigiu e estrelou?",
+      opcoes: ["Mais de 70", "Cerca de 50", "Aproximadamente 30", "Menos de 20"],
+      resposta: "Mais de 70"
     }
   ]
 };
@@ -258,6 +283,31 @@ const perguntasMusica = {
       pergunta: "🎵 Qual ópera de Mozart tem 'A Flauta Mágica'?",
       opcoes: ["Die Zauberflöte", "Don Giovanni", "Così fan tutte", "Le nozze di Figaro"],
       resposta: "Die Zauberflöte"
+    },
+    {
+      pergunta: "🎸 Qual guitarrista tocou em 'Stairway to Heaven'?",
+      opcoes: ["Jimmy Page", "Eric Clapton", "Jimi Hendrix", "David Gilmour"],
+      resposta: "Jimmy Page"
+    },
+    {
+      pergunta: "🎹 Qual compositor escreveu 'Clássico ao Luar'?",
+      opcoes: ["Beethoven", "Mozart", "Chopin", "Debussy"],
+      resposta: "Beethoven"
+    },
+    {
+      pergunta: "🎵 Qual banda gravou 'The Dark Side of the Moon'?",
+      opcoes: ["Pink Floyd", "Led Zeppelin", "The Beatles", "The Rolling Stones"],
+      resposta: "Pink Floyd"
+    },
+    {
+      pergunta: "🎸 Em que ano morreu Kurt Cobain?",
+      opcoes: ["1994", "1993", "1995", "1996"],
+      resposta: "1994"
+    },
+    {
+      pergunta: "🎹 Quantas sinfonias Mozart compôs?",
+      opcoes: ["41", "40", "42", "39"],
+      resposta: "41"
     }
   ]
 };
@@ -390,6 +440,31 @@ const perguntasHistoria = {
       pergunta: "🏛️ Qual filósofo foi professor de Alexandre, o Grande?",
       opcoes: ["Aristóteles", "Platão", "Sócrates", "Epicuro"],
       resposta: "Aristóteles"
+    },
+    {
+      pergunta: "⚔️ Qual império durou mais de 1000 anos?",
+      opcoes: ["Bizantino", "Romano", "Otomano", "Chinês"],
+      resposta: "Bizantino"
+    },
+    {
+      pergunta: "🏰 Em que ano foi fundada Roma?",
+      opcoes: ["753 a.C.", "750 a.C.", "755 a.C.", "760 a.C."],
+      resposta: "753 a.C."
+    },
+    {
+      pergunta: "📜 Qual civilização inventou o papel?",
+      opcoes: ["Chinesa", "Egípcia", "Grega", "Romana"],
+      resposta: "Chinesa"
+    },
+    {
+      pergunta: "⚔️ Qual foi a última cruzada?",
+      opcoes: ["Nona Cruzada", "Oitava Cruzada", "Sétima Cruzada", "Décima Cruzada"],
+      resposta: "Nona Cruzada"
+    },
+    {
+      pergunta: "🏰 Qual dinastia governou a França por mais tempo?",
+      opcoes: ["Capetiana", "Valois", "Bourbon", "Merovíngia"],
+      resposta: "Capetiana"
     }
   ]
 };
@@ -522,6 +597,659 @@ const perguntasCiencia = {
       pergunta: "🌡️ Em que temperatura Celsius e Fahrenheit se igualam?",
       opcoes: ["-40°", "-32°", "0°", "32°"],
       resposta: "-40°"
+    },
+    {
+      pergunta: "🧬 Qual é a partícula responsável pela massa?",
+      opcoes: ["Bóson de Higgs", "Quárk", "Glúon", "Fóton"],
+      resposta: "Bóson de Higgs"
+    },
+    {
+      pergunta: "🌌 Qual é a teoria que explica a deriva continental?",
+      opcoes: ["Tectônica de Placas", "Teoria de Gaia", "Uniformitarismo", "Catastrofismo"],
+      resposta: "Tectônica de Placas"
+    },
+    {
+      pergunta: "🧬 Quantos quarks existem no modelo padrão?",
+      opcoes: ["4", "6", "8", "12"],
+      resposta: "6"
+    },
+    {
+      pergunta: "🔬 Qual cientista descobriu a radioatividade?",
+      opcoes: ["Marie Curie", "Henri Becquerel", "Ernest Rutherford", "Pierre Curie"],
+      resposta: "Henri Becquerel"
+    },
+    {
+      pergunta: "🌡️ Qual é a temperatura do núcleo do Sol?",
+      opcoes: ["15 milhões °C", "10 milhões °C", "20 milhões °C", "5 milhões °C"],
+      resposta: "15 milhões °C"
+    }
+  ]
+};
+
+const perguntasEsportes = {
+  normais: [
+    {
+      pergunta: "⚽ Quantos jogadores tem um time de futebol em campo?",
+      opcoes: ["10", "11", "12", "9"],
+      resposta: "11"
+    },
+    {
+      pergunta: "🏀 Quantos pontos vale uma cesta de 3 no basquete?",
+      opcoes: ["2", "3", "4", "1"],
+      resposta: "3"
+    },
+    {
+      pergunta: "🎾 Quantos sets precisa ganhar para vencer no tênis?",
+      opcoes: ["2", "3", "4", "5"],
+      resposta: "3"
+    },
+    {
+      pergunta: "🏈 Qual país sediou a Copa do Mundo de 2018?",
+      opcoes: ["Brasil", "Rússia", "Alemanha", "França"],
+      resposta: "Rússia"
+    },
+    {
+      pergunta: "🏋️ Quantos anéis olímpicos existem?",
+      opcoes: ["4", "5", "6", "7"],
+      resposta: "5"
+    },
+    {
+      pergunta: "🏁 Qual piloto tem mais títulos de F1?",
+      opcoes: ["Ayrton Senna", "Michael Schumacher", "Lewis Hamilton", "Sebastian Vettel"],
+      resposta: "Lewis Hamilton"
+    },
+    {
+      pergunta: "🏐 Quantos buracos tem um campo de golfe padrão?",
+      opcoes: ["16", "18", "20", "22"],
+      resposta: "18"
+    },
+    {
+      pergunta: "🏊 Qual é o estilo de natação mais rápido?",
+      opcoes: ["Crawl", "Costas", "Peito", "Borboleta"],
+      resposta: "Crawl"
+    },
+    {
+      pergunta: "🥊 Qual esporte Pelé praticava?",
+      opcoes: ["Basquete", "Futebol", "Vôlei", "Tênis"],
+      resposta: "Futebol"
+    },
+    {
+      pergunta: "🏉 Quantos pontos vale um touchdown no futebol americano?",
+      opcoes: ["5", "6", "7", "8"],
+      resposta: "6"
+    }
+  ],
+  dificeis: [
+    {
+      pergunta: "⚽ Em que ano foi a primeira Copa do Mundo?",
+      opcoes: ["1928", "1930", "1932", "1934"],
+      resposta: "1930"
+    },
+    {
+      pergunta: "🏀 Qual time tem mais títulos da NBA?",
+      opcoes: ["Lakers", "Celtics", "Bulls", "Warriors"],
+      resposta: "Celtics"
+    },
+    {
+      pergunta: "🎾 Qual tenista tem mais Grand Slams masculinos?",
+      opcoes: ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Pete Sampras"],
+      resposta: "Novak Djokovic"
+    },
+    {
+      pergunta: "🏁 Em que circuito fica a curva Eau Rouge?",
+      opcoes: ["Mônaco", "Spa-Francorchamps", "Silverstone", "Monza"],
+      resposta: "Spa-Francorchamps"
+    },
+    {
+      pergunta: "🏋️ Quantas modalidades tem o decatlo?",
+      opcoes: ["8", "10", "12", "15"],
+      resposta: "10"
+    },
+    {
+      pergunta: "🏈 Qual seleção tem mais Copas do Mundo?",
+      opcoes: ["Brasil", "Alemanha", "Argentina", "Itália"],
+      resposta: "Brasil"
+    },
+    {
+      pergunta: "🏊 Qual é o recorde mundial dos 100m livres masculino?",
+      opcoes: ["Abaixo de 46s", "Abaixo de 47s", "Abaixo de 48s", "Abaixo de 49s"],
+      resposta: "Abaixo de 47s"
+    },
+    {
+      pergunta: "🏐 Qual golfista tem mais majors?",
+      opcoes: ["Tiger Woods", "Jack Nicklaus", "Arnold Palmer", "Gary Player"],
+      resposta: "Jack Nicklaus"
+    },
+    {
+      pergunta: "🎾 Quantos games tem um set no tênis?",
+      opcoes: ["Mínimo 6", "Sempre 6", "Máximo 7", "Sempre 7"],
+      resposta: "Mínimo 6"
+    },
+    {
+      pergunta: "🏀 Qual é a altura oficial da cesta de basquete?",
+      opcoes: ["3,00m", "3,05m", "3,10m", "3,15m"],
+      resposta: "3,05m"
+    },
+    {
+      pergunta: "⚽ Qual estádio é conhecido como 'Teatro dos Sonhos'?",
+      opcoes: ["Wembley", "Old Trafford", "Anfield", "Emirates"],
+      resposta: "Old Trafford"
+    },
+    {
+      pergunta: "🏁 Qual piloto morreu em Ímola em 1994?",
+      opcoes: ["Ayrton Senna", "Roland Ratzenberger", "Ambos", "Nenhum"],
+      resposta: "Ambos"
+    },
+    {
+      pergunta: "🏋️ Em que ano foram criados os Jogos Olímpicos modernos?",
+      opcoes: ["1894", "1896", "1900", "1904"],
+      resposta: "1896"
+    },
+    {
+      pergunta: "🏉 Qual time tem mais Super Bowls?",
+      opcoes: ["Patriots", "Steelers", "Cowboys", "49ers"],
+      resposta: "Patriots"
+    },
+    {
+      pergunta: "🏊 Quantos estilos existem na natação competitiva?",
+      opcoes: ["3", "4", "5", "6"],
+      resposta: "4"
+    },
+    {
+      pergunta: "🏐 Qual é o par no golfe?",
+      opcoes: ["Número ideal de tacadas", "Tipo de taco", "Distância do buraco", "Regra do jogo"],
+      resposta: "Número ideal de tacadas"
+    },
+    {
+      pergunta: "🎾 Qual torneio é jogado na grama?",
+      opcoes: ["US Open", "Wimbledon", "Roland Garros", "Australian Open"],
+      resposta: "Wimbledon"
+    },
+    {
+      pergunta: "⚽ Quantos minutos tem uma partida de futebol?",
+      opcoes: ["90", "80", "100", "120"],
+      resposta: "90"
+    },
+    {
+      pergunta: "🏀 Quantos segundos tem a posse de bola na NBA?",
+      opcoes: ["20", "24", "30", "35"],
+      resposta: "24"
+    },
+    {
+      pergunta: "🏁 Qual é a escuderia mais vitoriosa da F1?",
+      opcoes: ["Ferrari", "McLaren", "Mercedes", "Williams"],
+      resposta: "Ferrari"
+    }
+  ]
+};
+
+const perguntasGeografia = {
+  normais: [
+    {
+      pergunta: "🌍 Qual é o maior país do mundo?",
+      opcoes: ["China", "Canadá", "Rússia", "Brasil"],
+      resposta: "Rússia"
+    },
+    {
+      pergunta: "🏔️ Qual é o rio mais longo do mundo?",
+      opcoes: ["Nilo", "Amazonas", "Mississippi", "Yangtzé"],
+      resposta: "Nilo"
+    },
+    {
+      pergunta: "🏞️ Qual é o deserto mais quente do mundo?",
+      opcoes: ["Saara", "Atacama", "Gobi", "Kalahari"],
+      resposta: "Saara"
+    },
+    {
+      pergunta: "🏔️ Qual é a montanha mais alta do mundo?",
+      opcoes: ["K2", "Everest", "Kilimanjaro", "Aconcágua"],
+      resposta: "Everest"
+    },
+    {
+      pergunta: "🌊 Qual é o oceano mais profundo?",
+      opcoes: ["Atlântico", "Índico", "Pacífico", "Ártico"],
+      resposta: "Pacífico"
+    },
+    {
+      pergunta: "🏠 Qual é a capital da França?",
+      opcoes: ["Lyon", "Marselha", "Paris", "Nice"],
+      resposta: "Paris"
+    },
+    {
+      pergunta: "🌴 Em que continente fica o Egito?",
+      opcoes: ["Ásia", "África", "Europa", "Oceania"],
+      resposta: "África"
+    },
+    {
+      pergunta: "🏙️ Qual país tem mais habitantes?",
+      opcoes: ["Índia", "China", "EUA", "Brasil"],
+      resposta: "China"
+    },
+    {
+      pergunta: "🏝️ Qual é a maior ilha do mundo?",
+      opcoes: ["Austrália", "Groenlândia", "Madagascar", "Borneo"],
+      resposta: "Groenlândia"
+    },
+    {
+      pergunta: "🌋 Quantos continentes existem?",
+      opcoes: ["5", "6", "7", "8"],
+      resposta: "7"
+    }
+  ],
+  dificeis: [
+    {
+      pergunta: "🏔️ Qual é a capital do Cazaquistão?",
+      opcoes: ["Almaty", "Nur-Sultan", "Shymkent", "Aktobe"],
+      resposta: "Nur-Sultan"
+    },
+    {
+      pergunta: "🏝️ Qual país tem mais ilhas no mundo?",
+      opcoes: ["Noruega", "Finlândia", "Suécia", "Canadá"],
+      resposta: "Finlândia"
+    },
+    {
+      pergunta: "🌊 Qual é o ponto mais profundo dos oceanos?",
+      opcoes: ["Fossa das Marianas", "Fossa de Porto Rico", "Fossa do Peru-Chile", "Fossa das Filipinas"],
+      resposta: "Fossa das Marianas"
+    },
+    {
+      pergunta: "🏔️ Qual cordilheira separa Europa e Ásia?",
+      opcoes: ["Cáucaso", "Urais", "Altai", "Himalaia"],
+      resposta: "Urais"
+    },
+    {
+      pergunta: "🏞️ Qual é o menor país do mundo?",
+      opcoes: ["Mônaco", "Vaticano", "San Marino", "Liechtenstein"],
+      resposta: "Vaticano"
+    },
+    {
+      pergunta: "🌍 Quantos fusos horários tem a Rússia?",
+      opcoes: ["9", "11", "13", "15"],
+      resposta: "11"
+    },
+    {
+      pergunta: "🏙️ Qual cidade fica em dois continentes?",
+      opcoes: ["Istambul", "Cairo", "Moscou", "Teerã"],
+      resposta: "Istambul"
+    },
+    {
+      pergunta: "🌊 Qual mar não tem costa?",
+      opcoes: ["Mar Morto", "Mar de Sargaços", "Mar Cáspio", "Mar de Aral"],
+      resposta: "Mar de Sargaços"
+    },
+    {
+      pergunta: "🏔️ Qual vulcão destruiu Pompeia?",
+      opcoes: ["Etna", "Vesúvio", "Stromboli", "Vulcano"],
+      resposta: "Vesúvio"
+    },
+    {
+      pergunta: "🏝️ Qual é a capital da Austrália?",
+      opcoes: ["Sydney", "Melbourne", "Canberra", "Perth"],
+      resposta: "Canberra"
+    },
+    {
+      pergunta: "🌍 Qual linha imaginária divide a Terra em hemisférios?",
+      opcoes: ["Trópico de Câncer", "Equador", "Meridiano de Greenwich", "Trópico de Capricórnio"],
+      resposta: "Equador"
+    },
+    {
+      pergunta: "🏔️ Qual é o lago mais profundo do mundo?",
+      opcoes: ["Baikal", "Tanganica", "Cáspio", "Superior"],
+      resposta: "Baikal"
+    },
+    {
+      pergunta: "🏞️ Qual deserto fica na China e Mongólia?",
+      opcoes: ["Gobi", "Taklamakan", "Ordos", "Badain Jaran"],
+      resposta: "Gobi"
+    },
+    {
+      pergunta: "🌊 Qual estreito separa Europa e África?",
+      opcoes: ["Bósforo", "Gibraltar", "Dardanelos", "Messina"],
+      resposta: "Gibraltar"
+    },
+    {
+      pergunta: "🏙️ Qual é a cidade mais populosa do mundo?",
+      opcoes: ["Tóquio", "Delhi", "Xangai", "São Paulo"],
+      resposta: "Tóquio"
+    },
+    {
+      pergunta: "🏔️ Qual país tem a maior costa marítima?",
+      opcoes: ["Canadá", "Rússia", "Austrália", "Noruega"],
+      resposta: "Canadá"
+    },
+    {
+      pergunta: "🏝️ Qual arquipélago pertence ao Equador?",
+      opcoes: ["Galápagos", "Açores", "Canárias", "Maldivas"],
+      resposta: "Galápagos"
+    },
+    {
+      pergunta: "🌍 Qual é o ponto mais alto da África?",
+      opcoes: ["Kilimanjaro", "Monte Quênia", "Ras Dashen", "Monte Elgon"],
+      resposta: "Kilimanjaro"
+    },
+    {
+      pergunta: "🏔️ Qual rio forma a fronteira entre EUA e México?",
+      opcoes: ["Colorado", "Rio Grande", "Mississippi", "Missouri"],
+      resposta: "Rio Grande"
+    },
+    {
+      pergunta: "🌊 Qual é o mar mais salgado do mundo?",
+      opcoes: ["Mar Morto", "Mar Vermelho", "Mar Cáspio", "Mar de Aral"],
+      resposta: "Mar Morto"
+    }
+  ]
+};
+
+const perguntasLiteratura = {
+  normais: [
+    {
+      pergunta: "📖 Quem escreveu 'Dom Casmurro'?",
+      opcoes: ["José de Alencar", "Machado de Assis", "Eça de Queirós", "Lima Barreto"],
+      resposta: "Machado de Assis"
+    },
+    {
+      pergunta: "📚 Qual é o primeiro livro de Harry Potter?",
+      opcoes: ["Câmara Secreta", "Pedra Filosofal", "Prisioneiro de Azkaban", "Cálice de Fogo"],
+      resposta: "Pedra Filosofal"
+    },
+    {
+      pergunta: "📗 Quem escreveu 'Romeu e Julieta'?",
+      opcoes: ["Charles Dickens", "William Shakespeare", "Oscar Wilde", "Jane Austen"],
+      resposta: "William Shakespeare"
+    },
+    {
+      pergunta: "📘 Qual é o livro mais vendido do mundo?",
+      opcoes: ["Dom Quixote", "Bíblia", "O Senhor dos Anéis", "Harry Potter"],
+      resposta: "Bíblia"
+    },
+    {
+      pergunta: "📙 Quem escreveu 'O Cortiço'?",
+      opcoes: ["Aluísio Azevedo", "Raul Pompéia", "Adolfo Caminha", "Júlio Ribeiro"],
+      resposta: "Aluísio Azevedo"
+    },
+    {
+      pergunta: "📜 Qual movimento literário Machado de Assis representa?",
+      opcoes: ["Romantismo", "Realismo", "Naturalismo", "Parnasianismo"],
+      resposta: "Realismo"
+    },
+    {
+      pergunta: "📕 Quem escreveu 'Cem Anos de Solidão'?",
+      opcoes: ["Jorge Luis Borges", "Gabriel García Márquez", "Mario Vargas Llosa", "Octavio Paz"],
+      resposta: "Gabriel García Márquez"
+    },
+    {
+      pergunta: "📓 Qual é o gênero de 'Os Lusíadas'?",
+      opcoes: ["Romance", "Épico", "Lírico", "Dramático"],
+      resposta: "Épico"
+    },
+    {
+      pergunta: "📑 Quem escreveu 'O Pequeno Príncipe'?",
+      opcoes: ["Antoine de Saint-Exupéry", "Jules Verne", "Victor Hugo", "Alexandre Dumas"],
+      resposta: "Antoine de Saint-Exupéry"
+    },
+    {
+      pergunta: "📔 Qual é a primeira obra do Romantismo brasileiro?",
+      opcoes: ["Suspiros Poéticos", "O Guarani", "Iracema", "A Moreninha"],
+      resposta: "Suspiros Poéticos"
+    }
+  ],
+  dificeis: [
+    {
+      pergunta: "📖 Qual é o verdadeiro nome de Clarice Lispector?",
+      opcoes: ["Chaya Pinkhasovna", "Clara Lispector", "Clarice Gurgel", "Haia Pinkhasovna"],
+      resposta: "Haia Pinkhasovna"
+    },
+    {
+      pergunta: "📚 Em que ano Guimarães Rosa publicou 'Grande Sertão: Veredas'?",
+      opcoes: ["1954", "1956", "1958", "1960"],
+      resposta: "1956"
+    },
+    {
+      pergunta: "📗 Qual escritor criou o detetive Hercule Poirot?",
+      opcoes: ["Arthur Conan Doyle", "Agatha Christie", "Raymond Chandler", "Edgar Allan Poe"],
+      resposta: "Agatha Christie"
+    },
+    {
+      pergunta: "📘 Quantos sonetos tem 'Os Lusíadas'?",
+      opcoes: ["Nenhum", "10", "14", "Não é em sonetos"],
+      resposta: "Não é em sonetos"
+    },
+    {
+      pergunta: "📙 Qual é o primeiro romance de José Saramago?",
+      opcoes: ["Levantado do Chão", "Manual de Pintura e Caligrafia", "Terra do Pecado", "Memorial do Convento"],
+      resposta: "Terra do Pecado"
+    },
+    {
+      pergunta: "📜 Quem traduziu 'Hamlet' para o português pela primeira vez?",
+      opcoes: ["Machado de Assis", "Carlos Alberto Nunes", "Péricles Eugênio", "Onestaldo Pennafort"],
+      resposta: "Onestaldo Pennafort"
+    },
+    {
+      pergunta: "📕 Qual é o último livro da série 'Crônicas de Nárnia'?",
+      opcoes: ["A Última Batalha", "O Sobrinho do Mago", "A Cadeira de Prata", "O Cavalo e seu Menino"],
+      resposta: "A Última Batalha"
+    },
+    {
+      pergunta: "📓 Em que cidade se passa 'Ulisses' de James Joyce?",
+      opcoes: ["Londres", "Dublin", "Paris", "Edimburgo"],
+      resposta: "Dublin"
+    },
+    {
+      pergunta: "📑 Qual escritor brasileiro ganhou o Prêmio Camões em 1995?",
+      opcoes: ["João Cabral de Melo Neto", "Rubem Fonseca", "Autran Dourado", "Nélida Piñon"],
+      resposta: "João Cabral de Melo Neto"
+    },
+    {
+      pergunta: "📔 Quantos cantos tem 'Os Lusíadas'?",
+      opcoes: ["8", "10", "12", "14"],
+      resposta: "10"
+    },
+    {
+      pergunta: "📖 Qual é o pseudônimo de Eric Arthur Blair?",
+      opcoes: ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Kurt Vonnegut"],
+      resposta: "George Orwell"
+    },
+    {
+      pergunta: "📚 Em que ano foi publicado 'Dom Quixote'?",
+      opcoes: ["1605", "1615", "1625", "1635"],
+      resposta: "1605"
+    },
+    {
+      pergunta: "📗 Qual é o primeiro livro de Eça de Queirós?",
+      opcoes: ["O Crime do Padre Amaro", "O Primo Basílio", "Os Maias", "A Relíquia"],
+      resposta: "O Crime do Padre Amaro"
+    },
+    {
+      pergunta: "📘 Quem escreveu 'Cem Anos de Solidão'?",
+      opcoes: ["Gabriel García Márquez", "Mario Vargas Llosa", "Jorge Luis Borges", "Octavio Paz"],
+      resposta: "Gabriel García Márquez"
+    },
+    {
+      pergunta: "📙 Qual movimento literário caracteriza Fernando Pessoa?",
+      opcoes: ["Modernismo", "Simbolismo", "Realismo", "Romantismo"],
+      resposta: "Modernismo"
+    },
+    {
+      pergunta: "📜 Quantos heterônimos principais tem Fernando Pessoa?",
+      opcoes: ["2", "3", "4", "5"],
+      resposta: "3"
+    },
+    {
+      pergunta: "📕 Qual é o nome completo de Riobaldo em 'Grande Sertão'?",
+      opcoes: ["Riobaldo Tatarana", "Riobaldo Urutu-Branco", "Riobaldo Reinaldo", "Não é revelado"],
+      resposta: "Não é revelado"
+    },
+    {
+      pergunta: "📓 Em que século viveu Camões?",
+      opcoes: ["XV", "XVI", "XVII", "XVIII"],
+      resposta: "XVI"
+    },
+    {
+      pergunta: "📑 Qual é o primeiro romance de Clarice Lispector?",
+      opcoes: ["Perto do Coração Selvagem", "O Lustre", "A Cidade Sitiada", "A Maçã no Escuro"],
+      resposta: "Perto do Coração Selvagem"
+    },
+    {
+      pergunta: "📔 Quem escreveu 'Vidas Secas'?",
+      opcoes: ["Graciliano Ramos", "José Lins do Rego", "Rachel de Queiroz", "Jorge Amado"],
+      resposta: "Graciliano Ramos"
+    }
+  ]
+};
+
+const perguntasTecnologia = {
+  normais: [
+    {
+      pergunta: "💻 Quem fundou a Microsoft?",
+      opcoes: ["Steve Jobs", "Bill Gates", "Mark Zuckerberg", "Larry Page"],
+      resposta: "Bill Gates"
+    },
+    {
+      pergunta: "📱 Qual empresa criou o iPhone?",
+      opcoes: ["Samsung", "Google", "Apple", "Microsoft"],
+      resposta: "Apple"
+    },
+    {
+      pergunta: "🌐 O que significa WWW?",
+      opcoes: ["World Wide Web", "World Web Wide", "Web World Wide", "Wide World Web"],
+      resposta: "World Wide Web"
+    },
+    {
+      pergunta: "💾 Qual é a unidade básica de informação?",
+      opcoes: ["Byte", "Bit", "Kilobyte", "Megabyte"],
+      resposta: "Bit"
+    },
+    {
+      pergunta: "🔌 Qual linguagem é usada para criar páginas web?",
+      opcoes: ["Python", "Java", "HTML", "C++"],
+      resposta: "HTML"
+    },
+    {
+      pergunta: "📶 O que significa WiFi?",
+      opcoes: ["Wireless Fidelity", "Web Interface", "Wide Frequency", "Wireless Frequency"],
+      resposta: "Wireless Fidelity"
+    },
+    {
+      pergunta: "📊 Qual empresa criou o sistema Android?",
+      opcoes: ["Apple", "Microsoft", "Google", "Samsung"],
+      resposta: "Google"
+    },
+    {
+      pergunta: "🔒 O que é um firewall?",
+      opcoes: ["Antivírus", "Sistema de segurança", "Navegador", "Sistema operacional"],
+      resposta: "Sistema de segurança"
+    },
+    {
+      pergunta: "📸 Quantos megapixels tem uma foto de alta qualidade?",
+      opcoes: ["Acima de 8MP", "Acima de 12MP", "Acima de 16MP", "Acima de 20MP"],
+      resposta: "Acima de 12MP"
+    },
+    {
+      pergunta: "💻 Qual é o sistema operacional da Apple?",
+      opcoes: ["Windows", "Linux", "macOS", "Android"],
+      resposta: "macOS"
+    }
+  ],
+  dificeis: [
+    {
+      pergunta: "💻 Em que ano foi criado o primeiro computador?",
+      opcoes: ["1943", "1946", "1949", "1951"],
+      resposta: "1946"
+    },
+    {
+      pergunta: "🌐 Quem inventou a World Wide Web?",
+      opcoes: ["Tim Berners-Lee", "Vint Cerf", "Robert Kahn", "Larry Page"],
+      resposta: "Tim Berners-Lee"
+    },
+    {
+      pergunta: "💾 Quantos bits tem um byte?",
+      opcoes: ["6", "8", "10", "12"],
+      resposta: "8"
+    },
+    {
+      pergunta: "🔌 Qual é a linguagem de programação mais antiga?",
+      opcoes: ["FORTRAN", "COBOL", "Assembly", "LISP"],
+      resposta: "Assembly"
+    },
+    {
+      pergunta: "📱 Em que ano foi lançado o primeiro iPhone?",
+      opcoes: ["2005", "2007", "2009", "2011"],
+      resposta: "2007"
+    },
+    {
+      pergunta: "📊 Qual empresa criou o processador ARM?",
+      opcoes: ["Intel", "AMD", "Acorn", "Motorola"],
+      resposta: "Acorn"
+    },
+    {
+      pergunta: "🔒 O que significa SSL?",
+      opcoes: ["Secure Socket Layer", "System Security Layer", "Safe Socket Link", "Secure System Layer"],
+      resposta: "Secure Socket Layer"
+    },
+    {
+      pergunta: "📶 Qual é a velocidade do 5G?",
+      opcoes: ["Até 1 Gbps", "Até 10 Gbps", "Até 20 Gbps", "Até 100 Gbps"],
+      resposta: "Até 20 Gbps"
+    },
+    {
+      pergunta: "💻 Qual é o nome do co-fundador da Apple junto com Steve Jobs?",
+      opcoes: ["Steve Wozniak", "Bill Gates", "Larry Ellison", "Michael Dell"],
+      resposta: "Steve Wozniak"
+    },
+    {
+      pergunta: "🌐 Qual protocolo é usado para transferir páginas web?",
+      opcoes: ["FTP", "SMTP", "HTTP", "TCP"],
+      resposta: "HTTP"
+    },
+    {
+      pergunta: "💾 Qual é a capacidade de um CD padrão?",
+      opcoes: ["650 MB", "700 MB", "750 MB", "800 MB"],
+      resposta: "700 MB"
+    },
+    {
+      pergunta: "🔌 Qual linguagem foi criada por Guido van Rossum?",
+      opcoes: ["Java", "Python", "Ruby", "PHP"],
+      resposta: "Python"
+    },
+    {
+      pergunta: "📱 Qual foi o primeiro smartphone?",
+      opcoes: ["iPhone", "BlackBerry", "IBM Simon", "Palm Pilot"],
+      resposta: "IBM Simon"
+    },
+    {
+      pergunta: "📊 Qual empresa criou o chip M1?",
+      opcoes: ["Intel", "AMD", "Apple", "Qualcomm"],
+      resposta: "Apple"
+    },
+    {
+      pergunta: "🔒 O que é blockchain?",
+      opcoes: ["Banco de dados", "Criptografia", "Rede distribuída", "Todas anteriores"],
+      resposta: "Todas anteriores"
+    },
+    {
+      pergunta: "📶 Qual é a frequência do WiFi 2.4GHz?",
+      opcoes: ["2.4 GHz", "2.5 GHz", "2.6 GHz", "2.8 GHz"],
+      resposta: "2.4 GHz"
+    },
+    {
+      pergunta: "💻 Qual é o nome do sistema operacional do Google?",
+      opcoes: ["Chrome OS", "Android", "Ambos", "Nenhum"],
+      resposta: "Ambos"
+    },
+    {
+      pergunta: "🌐 Em que ano foi criado o Google?",
+      opcoes: ["1996", "1998", "2000", "2002"],
+      resposta: "1998"
+    },
+    {
+      pergunta: "💾 Qual é a diferença entre RAM e ROM?",
+      opcoes: ["Velocidade", "Volatilidade", "Capacidade", "Todas anteriores"],
+      resposta: "Volatilidade"
+    },
+    {
+      pergunta: "🔌 Qual é a linguagem mais usada para desenvolvimento web?",
+      opcoes: ["JavaScript", "Python", "Java", "C#"],
+      resposta: "JavaScript"
     }
   ]
 };
@@ -530,7 +1258,11 @@ const generos = {
   cinema: perguntasCinema,
   musica: perguntasMusica,
   historia: perguntasHistoria,
-  ciencia: perguntasCiencia
+  ciencia: perguntasCiencia,
+  esportes: perguntasEsportes,
+  geografia: perguntasGeografia,
+  literatura: perguntasLiteratura,
+  tecnologia: perguntasTecnologia
 };
 
 let generoAtual = 'cinema';
@@ -540,6 +1272,8 @@ let timerInterval;
 let perguntaAtual = 0;
 let pontuacao = 0;
 let perguntas = [];
+let vidas = 3;
+let modeSobrevivencia = false;
 
 const quiz = document.getElementById("quiz");
 const nextBtn = document.getElementById("next-btn");
@@ -551,6 +1285,8 @@ const quizHeader = document.querySelector(".quiz-header");
 const quizFooter = document.querySelector(".quiz-footer");
 const timerContainer = document.getElementById("timer-container");
 const timerElement = document.getElementById("timer");
+const livesContainer = document.getElementById("lives-container");
+const livesCount = document.getElementById("lives-count");
 const modeCards = document.querySelectorAll(".mode-card");
 const genreTabs = document.querySelectorAll(".genre-tab");
 
@@ -587,6 +1323,34 @@ function selecionarGenero(genero) {
       fundo: '#0d2a4a',
       card: 'rgba(33, 150, 243, 0.1)',
       borda: 'rgba(33, 150, 243, 0.2)'
+    },
+    esportes: {
+      titulo: "⚽ Quiz de Esportes",
+      cores: ['#4caf50', '#8bc34a'],
+      fundo: '#1b5e20',
+      card: 'rgba(76, 175, 80, 0.1)',
+      borda: 'rgba(76, 175, 80, 0.2)'
+    },
+    geografia: {
+      titulo: "🌍 Quiz de Geografia",
+      cores: ['#795548', '#a1887f'],
+      fundo: '#3e2723',
+      card: 'rgba(121, 85, 72, 0.1)',
+      borda: 'rgba(121, 85, 72, 0.2)'
+    },
+    literatura: {
+      titulo: "📖 Quiz de Literatura",
+      cores: ['#9c27b0', '#ba68c8'],
+      fundo: '#4a148c',
+      card: 'rgba(156, 39, 176, 0.1)',
+      borda: 'rgba(156, 39, 176, 0.2)'
+    },
+    tecnologia: {
+      titulo: "💻 Quiz de Tecnologia",
+      cores: ['#607d8b', '#90a4ae'],
+      fundo: '#263238',
+      card: 'rgba(96, 125, 139, 0.1)',
+      borda: 'rgba(96, 125, 139, 0.2)'
     }
   };
   
@@ -608,19 +1372,21 @@ function selecionarModo(modo) {
   
   switch(modo) {
     case 'normal':
-      perguntas = [...perguntasGenero.normais];
+      perguntas = [...perguntasGenero.normais].slice(0, 10);
       tempoLimite = 0;
       break;
     case 'rapido':
-      perguntas = [...perguntasGenero.normais];
+      perguntas = [...perguntasGenero.normais].slice(0, 10);
       tempoLimite = 15;
       break;
     case 'dificil':
-      perguntas = [...perguntasGenero.dificeis];
+      perguntas = [...perguntasGenero.dificeis].slice(0, 15);
       tempoLimite = 0;
       break;
     case 'desafio':
-      perguntas = [...perguntasGenero.dificeis];
+      // Combina perguntas normais e difíceis para ter 20 perguntas
+      const todasPerguntas = [...perguntasGenero.normais, ...perguntasGenero.dificeis];
+      perguntas = todasPerguntas.sort(() => Math.random() - 0.5).slice(0, 20);
       tempoLimite = 10;
       break;
   }
@@ -638,7 +1404,11 @@ function iniciarQuiz() {
     cinema: "🎬 Quiz Cinéfilo",
     musica: "🎵 Quiz Musical",
     historia: "📚 Quiz de História",
-    ciencia: "🔬 Quiz de Ciência"
+    ciencia: "🔬 Quiz de Ciência",
+    esportes: "⚽ Quiz de Esportes",
+    geografia: "🌍 Quiz de Geografia",
+    literatura: "📖 Quiz de Literatura",
+    tecnologia: "💻 Quiz de Tecnologia"
   };
   
   document.querySelector('.quiz-header h1').textContent = temas[generoAtual];
@@ -805,7 +1575,11 @@ function mostrarResultado() {
     'cinema': 'Cinema',
     'musica': 'Música', 
     'historia': 'História',
-    'ciencia': 'Ciência'
+    'ciencia': 'Ciência',
+    'esportes': 'Esportes',
+    'geografia': 'Geografia',
+    'literatura': 'Literatura',
+    'tecnologia': 'Tecnologia'
   };
 
   const modoTexto = {
